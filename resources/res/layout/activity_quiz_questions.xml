@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#585858" android:id="@+id/tvQuestion" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:layout_marginBottom="25dp" android:textAlignment="center"/>
+        <ImageView android:id="@+id/imgLogo" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="10dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <ProgressBar android:id="@+id/progressBar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:max="10" android:progress="1" android:indeterminate="false" android:minHeight="50dp" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+            <TextView android:textSize="18sp" android:textStyle="bold" android:id="@+id/tvProgress" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+        </LinearLayout>
+        <TextView android:textSize="22sp" android:textStyle="bold" android:id="@+id/tvOptionOne" android:background="@drawable/default_textview_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp" android:textAlignment="center"/>
+        <TextView android:textSize="22sp" android:textStyle="bold" android:id="@+id/tvOptionTwo" android:background="@drawable/default_textview_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp" android:textAlignment="center"/>
+        <TextView android:textSize="22sp" android:textStyle="bold" android:id="@+id/tvOptionThree" android:background="@drawable/default_textview_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp" android:textAlignment="center"/>
+        <TextView android:textSize="22sp" android:textStyle="bold" android:id="@+id/tvOptionFour" android:background="@drawable/default_textview_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp" android:textAlignment="center"/>
+        <Button android:textSize="25sp" android:id="@+id/btnSubmit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp" android:text="@string/submit"/>
+    </LinearLayout>
+</ScrollView>
